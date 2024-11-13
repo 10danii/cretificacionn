@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    padding: 40px 30px;
+    background-color: #f9f9f9;
+}
+
+.hero-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenedor principal de dos bloques */
+.main-content {
+    display: flex;
+    gap: 20px;
+    padding: 40px 30px;
+    background-color: #fff;
+}
+
+/* Bloque Izquierdo */
+.left-block {
+    flex: 2;
+}
+
+.features-row {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.feature {
+    width: 32%;
+    background-color: #fff;
+}
+
+.feature-icon {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.welcome-section {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.welcome-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Bloque Derecho */
+.right-block {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.why-waste-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.why-waste-text {
+    flex: 1;
+}
+
+.why-waste-text h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.why-waste-text p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.waste-image {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #000;
+    color: white;
+    font-size: 14px;
+}
+
+footer h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font
